@@ -1,6 +1,7 @@
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
+-- Map "jj" to "<Esc>" to exit Insert Mode
 vim.keymap.set("i", "jj", "<Esc>", { desc = "Exit Insert mode" })
 
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
