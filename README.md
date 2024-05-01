@@ -17,7 +17,7 @@ git clone https://github.com/ntn2142/ntn2142config.nvim.git $env:USERPROFILE\App
 # Rust
 ## rust-analayzer
 ```
-rustup comonent add rust-analyzer
+rustup component add rust-analyzer
 ```
 
 ## cargo-llvm-cov
