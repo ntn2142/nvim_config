@@ -11,13 +11,14 @@ return {
 	},
 	cmd = "Neotree",
 	keys = {
-		{ "<leader>tn", ":Neotree toggle<CR>", { desc = "[T]oggle [N]eotree" } },
+		{ "<leader>tn", ":Neotree toggle<CR>", desc = "[T]oggle [N]eotree" },
 	},
 	opts = {
 		filesystem = {
 			window = {
 				mappings = {
-					["\\"] = "close_window",
+					["<space>"] = "noop",
+					["2-leftmouse"] = "noop",
 				},
 			},
 		},
