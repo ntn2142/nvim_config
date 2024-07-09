@@ -31,6 +31,6 @@ return { -- Highlight, edit, and navigate code
 		--
 		vim.o.foldmethod = "expr"
 		vim.o.foldexpr = "nvim_treesitter#foldexpr()"
-		vim.o.foldlevel = 70
+		vim.o.foldlevel = 99
 	end,
 }
