@@ -1,17 +1,17 @@
-# ntn2142config.nvim
+# nvim_config
 
 ## Clone on Windows
 
 If you're using `cmd.exe`:
 
 ```
-git clone https://github.com/ntn2142/ntn2142config.nvim.git %userprofile%\AppData\Local\nvim\
+git clone https://github.com/ntn2142/nvim_config.git %userprofile%\AppData\Local\nvim\
 ```
 
 If you're using `powershell.exe`
 
 ```
-git clone https://github.com/ntn2142/ntn2142config.nvim.git $env:USERPROFILE\AppData\Local\nvim\
+git clone https://github.com/ntn2142/nvim_config.git $env:USERPROFILE\AppData\Local\nvim\
 ```
 
 # Rust
