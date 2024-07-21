@@ -1,7 +1,7 @@
 return {
 	"voldikss/vim-floaterm",
 	config = function()
-		vim.keymap.set("n", "<leader>fl", "<cmd>FloatermNew lazygit<CR>", { desc = "[F]loat [L]azygit" })
-		vim.keymap.set("n", "<leader>ft", "<cmd>FloatermNew<CR>", { desc = "[F]loat [T]erminal" })
+		vim.keymap.set("n", "<leader>tt", "<cmd>FloatermToggle<CR>", { desc = "[F]loat [T]erminal" })
+		vim.keymap.set("t", "<C-t>", "<cmd>FloatermHide<CR>", { desc = "Floaterm Hide" })
 	end,
 }

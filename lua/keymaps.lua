@@ -1,10 +1,7 @@
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
--- öö eazy exit keybind
--- Map "öö" to "<Esc>" to exit Insert Mode
-vim.keymap.set("i", "jj", "<Esc>", { desc = "Exit Insert mode" })
-vim.keymap.set("t", "jj", "<C-\\><C-n>", { desc = "Exit terminal mode" })
+vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Exit terminal mode" })
 
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true
